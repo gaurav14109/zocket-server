@@ -11,7 +11,7 @@ app.use(bodyParser.json())
 
 app.use('/api/users',userRouter)
 
-app.listen(port, (err) => {
+app.listen(PORT, (err) => {
 
     if (err) {}
 
